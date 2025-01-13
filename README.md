@@ -73,7 +73,7 @@ ali-fusion-go-sdk/
 #### 安装
 通过 `go get` 命令快速安装：
 ```bash
-go get -u github.com/your-repo/github.com/godrealms/ali-fusion-go-sdk
+go get -u github.com/godrealms/ali-fusion-go-sdk
 ```
 
 #### 使用示例
