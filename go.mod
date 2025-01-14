@@ -1,3 +1,3 @@
 module github.com/godrealms/ali-fusion-go-sdk
 
-go 1.23.3
+go 1.23.1
