@@ -204,8 +204,8 @@ func (o *OSSClient) GenerateUploadSignature(expireSeconds int64, maxFileSize int
 		"conditions": []interface{}{
 			// 限制文件大小
 			[]interface{}{"content-length-range", 0, maxFileSize},
-			// 限制文件上传路径前缀
-			map[string]string{"key": dirPrefix},
+			// 修改为前缀匹配
+			[]interface{}{"starts-with", "$key", dirPrefix},
 		},
 	}
 
